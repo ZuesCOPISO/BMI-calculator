@@ -1,0 +1,28 @@
+.Container {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 5px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 10px;
+
+}
+.output {
+    grid-column: 1 / span 4;
+    background-color: blueviolet;
+    text-align: right;
+    padding: 5px;
+}
+.clear-btn {
+    grid-column: 1 / span 2;
+}
+.eql-btn {
+    grid-column: 3 / span 2;
+}
+.btn {
+    font-size: 18px;
+    padding: 10px;
+    font-family: sans-serif;
+}
