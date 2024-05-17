@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>JavaScript Calculator</title>
+   
+</head>
+<body>
+    <div class="Container">
+        <div class="output" id="output"></div>
+        <button class="btn clear" onclick="clearSum ()">CE</button>
+        <button class="btn" onclick="appendToOutput('7')">7</button>
+        <button class="btn" onclick="appendToOutput('8')">8</button>
+        <button class="btn" onclick="appendToOutput('9')">9</button>
+        <button class="btn" onclick="appendToOutput('/')">/</button>
+        <button class="btn" onclick="appendToOutput('4')">4</button>
+        <button class="btn" onclick="appendToOutput('5')">5</button>
+        <button class="btn" onclick="appendToOutput('6')">6</button>
+        <button class="btn" onclick="appendToOutput('*')">*</button>
+        <button class="btn" onclick="appendToOutput('1')">1</button>
+        <button class="btn" onclick="appendToOutput('2')">2</button>
+        <button class="btn" onclick="appendToOutput('3')">3</button>
+        <button class="btn" onclick="appendToOutput('-')">-</button>
+        <button class="btn" onclick="appendToOutput('0')">0</button>
+        <button class="btn" onclick="appendToOutput('.')">.</button>
+        <button class="btn" onclick="evaluateSum()">=</button>
+        <button class="btn" onclick="appendToOutput('+')">+</button>
+    </div>
+    <script src="./Script/code.js"></script>
+</body>
+</html>
